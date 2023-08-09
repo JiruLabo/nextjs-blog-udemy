@@ -2,10 +2,10 @@ import Head from "next/head";
 // import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
-import Layout from "../components/Layout";
+import Layout from "../components/layout";
 import utilStyle from "../styles/utils.module.css";
 import { getPostsData } from "../lib/post";
-import { siteTitle } from "../components/Layout";
+import { siteTitle } from "../components/layout";
 
 //SSGの場合
 export async function getStaticProps() {
